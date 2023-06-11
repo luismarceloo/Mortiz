@@ -1,27 +1,103 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Bienvenido a mi página Web</title>
+    <title>Portafolio de Marcelo Ortiz Contreras</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header img {
+            max-width: 100%; /* Asegúrate de que la imagen se ajusta a la anchura de su contenedor */
+            height: auto; /* Mantén la relación de aspecto de la imagen */
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        section {
+            margin: 20px 0;
+            padding: 20px;
+        }
+
+        section h2 {
+            color: #007BFF;
+        }
+
+        #acerca {
+            background-color: #e3f2fd;
+        }
+
+        #experiencia {
+            background-color: #fce4ec;
+        }
+
+        #proyectos {
+            background-color: #e8f5e9;
+        }
+
+        #contacto {
+            background-color: #fff9c4;
+        }
+    </style>
 </head>
 <body>
-    <h1>Bienvenido a mi página Web</h1>
+    <header>
+        <img src="https://cdn.pixabay.com/photo/2018/09/27/09/22/artificial-intelligence-3706562_1280.jpg" alt="Imagen de inteligencia artificial">
+        <h1>Marcelo Ortiz Contreras</h1>
+        <nav>
+            <ul>
+                <li><a href="#acerca">Acerca de mí</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <nav>
-        <ul>
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#acerca">Acerca de</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-        </ul>
-    </nav>
+    <section id="acerca">
+        <h2>Acerca de mí</h2>
+        <p>Soy Luis Ortiz, educador e informático con 35 años de experiencia. Destaco en la implementación de TIC en aulas y en la formación docente. He liderado la actualización metodológica del Programa Inglés Abre Puertas del MINEDUC Chile. Motivado para innovar en la educación del siglo XXI.</p>
+    </section>
 
-    <h2 id="inicio">¡Hola Mundo!</h2>
-    <p>Bienvenido a mi primera página web</p>
+    <section id="experiencia">
+        <h2>Experiencia</h2>
+        <p>Aquí puedes listar tu experiencia laboral, tus roles, responsabilidades y logros.</p>
+    </section>
 
-    <h2 id="acerca">Acerca de mi</h2>
-    <p>Soy apasionado</p>
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <p>Aquí puedes mostrar los proyectos en los que has trabajado. Puedes incluir enlaces, imágenes, descripciones y todo lo que creas necesario para mostrar tu trabajo.</p>
+    </section>
 
-    <h2 id="contacto">Contacto</h2>
-    <p>Ponte en contacto conmigo</p>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Aquí puedes poner información de cómo contactarte. Recuerda no compartir información muy sensible en la web.</p>
+    </section>
 
 </body>
 </html>
+
